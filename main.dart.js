@@ -9001,7 +9001,7 @@ l.z=null
 l.y=!0
 l.kT()
 l.az()
-l.a0R(n,o,p)
+l.a0R(n,o,p,!1)
 if(a.e==null){s=1
 break}m=A.bP(a,null,t.w).w
 k=m.a
@@ -48461,15 +48461,15 @@ return A.ap(["id",s.a,"name",s.b,"date",s.c.u2(),"imageKey",s.d,"settings",s.e.e
 A.lu.prototype={
 H(){return"CanvasTool."+this.b}}
 A.kz.prototype={
-a0R(a,b,c){var s=this,r=s.a
+a0R(a,b,c,d){var s=this,r=s.a
 if(r!=null)r.m()
 s.a=a
 s.c=b
 s.e=c==null?s.e:c
-s.w=B.c7
+if(d)s.w=B.c7
 s.kT()
 s.az()},
-awP(a,b){return this.a0R(a,b,null)},
+awP(a,b){return this.a0R(a,b,null,!0)},
 a4w(a){var s=this,r=s.r
 if(a===r.a)return
 s.r=r.asb(B.b.ae(a,2,7))
