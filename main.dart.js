@@ -53499,7 +53499,7 @@ break
 case 6:case 1:return A.r(q,r)
 case 2:return A.q(o.at(-1),r)}})
 return A.t($async$q3,r)},
-P(a){var s,r=this,q=null,p="Archivo",o=A.e4(a),n=r.y,m=16*o,l=12*o,k=t.D,j=A.bo(A.es(A.b([A.dd(B.A,new A.cy(new A.aG(m,0,m,0),A.bw("\u2190",q,q,q,A.cN(A.bp(q,q,B.H,q,q,q,q,q,p,q,q,16,q,q,B.aQ,q,1,!0,q,q,q,q,q,q,q,q),o),q,q),q),!1,q,q,q,q,q,q,q,q,q,q,q,new A.aEu(r,a),q,q,q),A.bw("SCAN THE CODE ON THE OTHER SCREEN",q,q,q,A.cN(A.bp(q,q,B.H,q,q,q,q,q,p,q,q,10,q,q,B.a3,q,1,!0,q,0.6,q,q,q,q,q,q),o),q,q),B.hm,new A.cy(new A.aG(0,0,l,0),A.bw("84daed9",q,q,q,A.bp(q,q,B.fo,q,q,q,q,q,p,q,q,9,q,q,B.y,q,1.3,!0,q,q,q,q,q,q,q,q),q,q),q)],k),B.V,B.J),46*o,q)
+P(a){var s,r=this,q=null,p="Archivo",o=A.e4(a),n=r.y,m=16*o,l=12*o,k=t.D,j=A.bo(A.es(A.b([A.dd(B.A,new A.cy(new A.aG(m,0,m,0),A.bw("\u2190",q,q,q,A.cN(A.bp(q,q,B.H,q,q,q,q,q,p,q,q,16,q,q,B.aQ,q,1,!0,q,q,q,q,q,q,q,q),o),q,q),q),!1,q,q,q,q,q,q,q,q,q,q,q,new A.aEu(r,a),q,q,q),A.bw("SCAN THE CODE ON THE OTHER SCREEN",q,q,q,A.cN(A.bp(q,q,B.H,q,q,q,q,q,p,q,q,10,q,q,B.a3,q,1,!0,q,0.6,q,q,q,q,q,q),o),q,q),B.hm,new A.cy(new A.aG(0,0,l,0),A.bw("66bc36d",q,q,q,A.bp(q,q,B.fo,q,q,q,q,q,p,q,q,9,q,q,B.y,q,1.3,!0,q,q,q,q,q,q,q,q),q,q),q)],k),B.V,B.J),46*o,q)
 if(n==null)s=new A.Fn(r.w,r.ganp(),new A.aEv(o),q)
 else{s=r.z
 s=s!=null&&s>0&&s<1?n+" "+B.c.aB(s*100)+"%":n
@@ -53625,7 +53625,7 @@ if(A.aF()===B.C||A.aF()===B.aa)B.d.O(m,A.b([B.Dp,A.he(12,40,"Take a photo",!0,ne
 m.push(B.Dp)
 m.push(A.he(12,40,"Scan from QR code",!0,new A.aGL(o,a),!1,"\u2192",s))
 m.push(B.hm)
-m.push(A.es(A.b([A.i8(A.dd(B.A,new A.cy(B.JB,A.bw("HOW IT WORKS",s,s,s,A.bp(s,s,B.c7,s,s,s,s,s,r,s,s,10,s,s,B.a3,s,1,!0,s,0.6,s,s,s,s,s,s),s,s),s),!1,s,s,s,s,s,s,s,s,s,s,s,o.e,s,s,s),1),A.bw("84daed9",s,s,s,A.bp(s,s,B.fo,s,s,s,s,s,r,s,s,9,s,s,B.y,s,1.3,!0,s,s,s,s,s,s,s,s),s,s)],p),B.V,B.J))
+m.push(A.es(A.b([A.i8(A.dd(B.A,new A.cy(B.JB,A.bw("HOW IT WORKS",s,s,s,A.bp(s,s,B.c7,s,s,s,s,s,r,s,s,10,s,s,B.a3,s,1,!0,s,0.6,s,s,s,s,s,s),s,s),s),!1,s,s,s,s,s,s,s,s,s,s,s,o.e,s,s,s),1),A.bw("66bc36d",s,s,s,A.bp(s,s,B.fo,s,s,s,s,s,r,s,s,9,s,s,B.y,s,1.3,!0,s,s,s,s,s,s,s,s),s,s)],p),B.V,B.J))
 return A.hk(B.aW,A.b([B.la,q,new A.cy(B.q2,A.dk(m,B.aC,s,B.M,B.J),s)],p),B.N,B.eJ)},
 $S:141}
 A.aGJ.prototype={
