@@ -1059,10 +1059,13 @@ class CompiledApp {
       _12186: (x0,x1) => { x0.width = x1 },
       _12554: x0 => x0.name,
       _12555: x0 => x0.message,
-      _13299: () => globalThis.console,
-      _13338: (x0,x1) => x0.error(x1),
-      _13351: x0 => x0.message,
-      _13353: x0 => globalThis.Wakelock.toggle(x0),
+      _13297: () => globalThis.goatcounter,
+      _13298: (x0,x1) => x0.count(x1),
+      _13299: (x0,x1,x2) => ({path: x0,title: x1,event: x2}),
+      _13302: () => globalThis.console,
+      _13341: (x0,x1) => x0.error(x1),
+      _13354: x0 => x0.message,
+      _13356: x0 => globalThis.Wakelock.toggle(x0),
 
     };
 
