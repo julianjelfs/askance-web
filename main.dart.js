@@ -53694,7 +53694,8 @@ s.c.PA(q.ch,q.c,q.y,new A.F(o.a*r,o.b*r),p,s.x)}}s=n.b
 r=s.Q
 q=A.aq([B.hI,new A.cB(A.blo(),new A.aAQ(l),t.UN),B.kh,A.bkM(new A.aAR(s),new A.aAS(s)),B.Ev,new A.cB(A.bl6(),new A.aAT(l),t.lG)],t.u,t.xR)
 l=A.tH(B.c5,new A.jZ(new A.l_(new A.eM(new A.aAU(l,s,n.c),m,new A.mo(A.b([s.b,s.c],t.bA)),m),m),q,B.C,!1,m),m,m,m,l.gaor(),m)
-return new A.iC(A.tS(1,r?-1:1,1),B.ad,!0,m,l,m)},
+s=r?-1:1
+return new A.iC(A.tS(s,r?-1:1,1),B.ad,!0,m,l,m)},
 $S:388}
 A.aAP.prototype={
 $1(a){var s=this.a
@@ -53912,7 +53913,7 @@ else{p=""+q
 if(q>0)p="+"+p}return A.cj(A.b([new A.kw("Detail",""+k,o),new A.QU(m,o),j,new A.TC(m,o),h,new A.kw("Brightness",s,o),new A.Pj(m,o),r,new A.kw("Contrast",p,o),new A.Qm(m,o),A.aN(o,i,o),new A.RE(m,o)],t.D),B.O,o,B.n,B.aH)}}
 A.RE.prototype={
 M(a){var s=this.c
-return new A.HN("Flip vertically",s.Q,s.ga7H(),null)}}
+return new A.HN("Turn upside down",s.Q,s.ga7H(),null)}}
 A.Ek.prototype={
 M(a){var s,r,q,p,o=A.b([],t.t)
 for(s=this.c,r=0;q=s.w,p=q.a,r<=p;++r)o.push(r)
@@ -54835,7 +54836,7 @@ break
 case 6:case 1:return A.r(q,r)
 case 2:return A.q(o.at(-1),r)}})
 return A.t($async$q8,r)},
-M(a){var s,r=this,q=null,p="Bricolage",o=A.ck(a),n=r.y,m=12*o,l=t.D,k=A.aN(A.cr(A.b([A.co(!0,A.cT(B.C,A.aN(A.dP(new A.ho(B.mm,22*o,B.V,q),q,q),48*o,52*o),!1,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.aFM(r,a),q,q,q),!1,q,q,!1,q,q,q,q,q,"Back",q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q),new A.n2(1,B.fQ,A.b6("Scan the code on the other screen",1,B.ao,q,q,A.bZ(A.bH(16,B.P,B.V,p,q,1.2,-0.16),o),q,q),q),B.hx,new A.bR(new A.ap(0,0,m,0),A.b6("1e4f6f8",q,q,q,q,A.bH(9,B.w,B.I3,p,q,1.3,q),q,q),q)],l),B.D,B.n,B.r,q),56*o,q)
+M(a){var s,r=this,q=null,p="Bricolage",o=A.ck(a),n=r.y,m=12*o,l=t.D,k=A.aN(A.cr(A.b([A.co(!0,A.cT(B.C,A.aN(A.dP(new A.ho(B.mm,22*o,B.V,q),q,q),48*o,52*o),!1,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.aFM(r,a),q,q,q),!1,q,q,!1,q,q,q,q,q,"Back",q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q),new A.n2(1,B.fQ,A.b6("Scan the code on the other screen",1,B.ao,q,q,A.bZ(A.bH(16,B.P,B.V,p,q,1.2,-0.16),o),q,q),q),B.hx,new A.bR(new A.ap(0,0,m,0),A.b6("281d8d0",q,q,q,q,A.bH(9,B.w,B.I3,p,q,1.3,q),q,q),q)],l),B.D,B.n,B.r,q),56*o,q)
 if(n==null)s=new A.FP(r.w,r.ganY(),new A.aFN(o),q)
 else{s=r.z
 s=s!=null&&s>0&&s<1?n+" "+B.c.aA(s*100)+"%":n
@@ -54989,7 +54990,7 @@ if(A.aI()===B.G||A.aI()===B.a9)B.d.P(m,A.b([B.DO,A.eh(!1,!0,15,50,"Take a photo"
 m.push(B.DO)
 m.push(A.eh(!1,!0,15,50,"Receive from another device",s,!1,new A.aI1(o,a),!1,"\u2192",s))
 m.push(B.hx)
-m.push(A.cr(A.b([A.d1(A.cT(B.C,new A.bR(B.Kb,A.b6("How it works",s,s,s,s,A.bH(14,B.P,B.V,r,s,1.2,s),s,s),s),!1,s,s,s,s,s,s,s,s,s,s,s,s,s,o.e,s,s,s),1),A.b6("1e4f6f8",s,s,s,s,A.bH(10,B.w,B.II,r,s,1.3,s),s,s)],p),B.D,B.n,B.r,s))
+m.push(A.cr(A.b([A.d1(A.cT(B.C,new A.bR(B.Kb,A.b6("How it works",s,s,s,s,A.bH(14,B.P,B.V,r,s,1.2,s),s,s),s),!1,s,s,s,s,s,s,s,s,s,s,s,s,s,o.e,s,s,s),1),A.b6("281d8d0",s,s,s,s,A.bH(10,B.w,B.II,r,s,1.3,s),s,s)],p),B.D,B.n,B.r,s))
 return A.kx(A.hr(B.b9,A.b([B.q_,q,new A.bR(B.Kn,A.cj(m,B.O,s,B.n,B.r),s)],p),B.Q,B.hz),B.Gd,B.lA)},
 $S:532}
 A.aI_.prototype={
