@@ -18,7 +18,7 @@
 // previous deploy stored beside this deploy's files would mix two builds,
 // and main.dart.mjs and main.dart.wasm from different builds do not run.
 
-const BUILD = 'd6a3bb008dbc';
+const BUILD = '5277a44c8eff';
 const CACHE = `askance-${BUILD}`;
 
 self.addEventListener('install', (event) => {
